@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>お化けゲーム</title>
+<meta name="viewport" content="initial-scale=1.0">
+<script src="./jquery-1.10.2.js"></script>
+<link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body>
+<div id="container">
+<!-- スタート画面 -->
+<h1>お化けゲーム<br><small>Click to start!<br>Created by 檀ゼミ 第8期生</small></h1>
+<img id="student" src="./o1.png" alt="志願学生">
+<img id="dan" src="./ooo.png" alt="ゼミ教員">
+<div id="message">
+<p id="main">ここをクリックすると進行します。</p>
+<p id="next">▼</p>
+</div>
+<nav>
+<ul>
+<li id="a1"><a href="#">選択肢１</a></li>
+<li id="a2"><a href="#">選択肢２</a></li>
+<li id="a3"><a href="#">選択肢３</a></li>
+</ul>
+</nav>
+<audio id="bgm" loop>
+<source src="./ghost mission.wav" type="audio/mp3">
+</audio>
+</div>
+<script src="./game.js"></script>
+</body>
+</html>
